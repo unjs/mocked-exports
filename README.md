@@ -4,6 +4,7 @@
 
 [![npm version](https://img.shields.io/npm/v/mocked-exports?color=yellow)](https://npmjs.com/package/mocked-exports)
 [![npm downloads](https://img.shields.io/npm/dm/mocked-exports?color=yellow)](https://npm.chart.dev/mocked-exports)
+[![codecov](https://img.shields.io/codecov/c/gh/unjs/mocked-exports?color=yellow)](https://codecov.io/gh/unjs/mocked-exports)
 
 <!-- /automd -->
 
