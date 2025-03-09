@@ -1,4 +1,4 @@
-interface _MockFunction <F> {
+interface _MockFunction<F> {
   (...args: any[]): F;
   new (...args: any[]): F;
   then<T>(fn: () => T): Promise<T>;
@@ -8,7 +8,7 @@ interface _MockFunction <F> {
 
 type MockFunction = _MockFunction<MockFunction> & {
   readonly [key: string | symbol]: MockFunction;
-}
+};
 
 declare const mock: MockFunction;
 
