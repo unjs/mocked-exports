@@ -6,7 +6,7 @@ interface _MockFunction<F> {
   readonly __mock__: true;
   readonly __createMock__: typeof createMock;
   then<T>(fn: () => T): Promise<T>;
-  catch(): Promise<void>;
+  catch<T>(fn: () => T): Promise<void>;
   finally(fn: () => void): Promise<void>;
 }
 
