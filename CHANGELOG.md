@@ -1,8 +1,6 @@
 # Changelog
 
-
 ## v0.1.1
-
 
 ### 🚀 Enhancements
 
@@ -17,4 +15,3 @@
 
 - Daniel Roe ([@danielroe](https://github.com/danielroe))
 - Pooya Parsa ([@pi0](https://github.com/pi0))
-
