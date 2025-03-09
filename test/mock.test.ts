@@ -31,7 +31,7 @@ for (const { type, noop, empty, proxy } of types) {
 
     describe("proxy", () => {
       it("nesting", () => {
-        const p = new proxy.foo.bar();
+        const p = new proxy.foo!.bar!();
         expect(p.__mock__).toBe(true);
       });
 
